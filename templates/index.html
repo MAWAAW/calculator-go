@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Calculatrice Go sécurisée</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <h1>Calculatrice sécurisée</h1>
+
+  <input id="a" type="number" placeholder="A">
+  <input id="b" type="number" placeholder="B">
+
+  <div>
+    <button onclick="calculate('add')">+</button>
+    <button onclick="calculate('sub')">-</button>
+    <button onclick="calculate('mul')">×</button>
+    <button onclick="calculate('div')">÷</button>
+  </div>
+
+  <p>Résultat : <span id="result">0</span></p>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
